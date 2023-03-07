@@ -1,16 +1,18 @@
-# foodo_app
+# FOOD_DELIVERY_APP[FOODO]
 
 A new Flutter project.
 
-## Getting Started
+FOODO is my applyed university project , it's main ideal is dealing with flutter , api ,state managment , route managment , create beautiful UI's
+and good UX . 
 
-This project is a starting point for a Flutter application.
+TOOLS:
 
-A few resources to get you started if this is your first Flutter project:
+backend:  php,laravel
+frontend: flutter,dart 
+state managment: GetX
+local storage: Shared preferences
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+it was just a starting point but there a lot of things to add..
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
