@@ -1,0 +1,8 @@
+in GetX we used to use Dependency injection in every object we are going to create
+
+for ex:
+we want to use popularFoodController in 1 2 3
+so we create it once GetBuilder<CartController>(builder:(cartController)
+so every time the data changes in CartController the builder re-build the instance(cartController)
+in 1 then we use Get.find<PopularFoodController>(). .. in 2 and 3
+thus we use one instance of PopularFood in three places

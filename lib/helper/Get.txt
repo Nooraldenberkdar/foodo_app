@@ -1,0 +1,21 @@
+1)Getx use this way in handling instances or objects
+1)create object from each class in dependencies page but not instantiate it until it calls for
+    first time and then it automatically will add it to Get so now Get Package have all the
+    objects that you created
+     and we do that using Get.put....  or Get.lazyPut....
+
+call:==>CartRepo cartRepo; that's also will create an instance from CartRepo and then when you use Get.find<CartRepo> this instance will be called
+     ==>Get.find
+     ==>GetBuilder          both of them are assumed as a call to Gets' Objects
+
+2)then we have two approaches to use this object
+    1)if we just want to get an instance from our OBJECT in Get
+        ==>Get.find
+    2)if we want to make the instance changes whenever data is depending on has changed
+        so every change in data = rebuild widgets tree (automatically)
+        ==>Get.builder<xx>(builder:(instance of xx){ return...});
+
+remark: The difference between GetBuilder and Get.find is that Get.find is a simple call
+    to retrieve an instance of an object stored in the Get object, while GetBuilder provides
+    a way to automatically rebuild the widget tree whenever the data changes.
+
