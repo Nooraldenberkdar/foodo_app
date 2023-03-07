@@ -13,7 +13,3 @@ state managment: GetX
 local storage: Shared preferences
 
 it was just a starting point but there a lot of things to add..
-
-file:///home/nour/Pictures/Screenshots/Screenshot%20from%202023-02-22%2014-45-33.png
-
-https://github.com/Nooraldenberkdar/foodo_app/blob/master/assets/images/food0.jpg
