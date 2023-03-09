@@ -8,8 +8,17 @@ and good UX .
 TOOLS:
 
 backend:  php,laravel
-frontend: flutter,dart 
+
+
+
+frontend: flutter,dart
+
+
+
 state managment: GetX
+
+
+
 local storage: Shared preferences
 
 it was just a starting point but there a lot of things to add..
