@@ -23,3 +23,4 @@ local storage: Shared preferences
 
 it was just a starting point but there a lot of things to add..
 
+![alt text](https://github.com/Nooraldenberkdar/Food_Delivery_App/blob/master/Screenshot%20from%202023-02-22%2011-56-23.png)
